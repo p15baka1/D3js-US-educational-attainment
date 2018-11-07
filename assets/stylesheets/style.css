@@ -338,8 +338,8 @@ form {
         color: #0FA3B1;
     }
 .radio-toolbar label {
-background-color: black; 
-color: white; 
+background-color: white; 
+color: black; 
 border: 2px outset #304040;
 padding: 5px 10px;
 text-align: center;
@@ -356,7 +356,7 @@ font-weight: bold;
 
 .radio-toolbar label:hover {
 background-color: #304040;
-color: black; 
+color: white; 
 }
 
 .radio-toolbar label:active {
@@ -367,5 +367,5 @@ transform: translateY(4px);
 
 .radio-toolbar input[type="radio"]:checked+label {
 background-color: #304040;
-color: black;
+color: white;
 }
